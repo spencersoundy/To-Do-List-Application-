@@ -1,15 +1,15 @@
 /* This is styling concerning the main app */
 /* Variables */
 :root {
-	--primary: darkred;
-	--business: darkred;
+	--primary: dodgerblue;
+	--business: dodgerblue;
 	--personal: #57a845;
 	--light: #eee;
 	--grey: #888;
 	--dark: #313154;
 
 	--shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-	--business-glow: 0px 0px 4px darkred;
+	--business-glow: 0px 0px 4px dodgerblue;
 	--personal-glow: 0px 0px 4px #57a845;
 }
 
@@ -172,7 +172,7 @@ input:checked ~ .bubble::after {
 	overflow-y: auto;
 	overflow-x: hidden;
 	scrollbar-width: thin;
-	scrollbar-color: darkred #fff;
+	scrollbar-color: dodgerblue #fff;
 }
 
 .todo-list .todo-item {
@@ -255,7 +255,7 @@ input:checked ~ .bubble::after {
 	width: 100%;
 	display: block;
 	color: #fff;
-	background-color: darkred;
+	background-color: dodgerblue;
 	padding: 0.6rem;
 	border-radius: 5px;
 	text-transform: uppercase;

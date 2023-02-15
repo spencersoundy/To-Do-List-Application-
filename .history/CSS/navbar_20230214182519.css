@@ -1,6 +1,6 @@
 /* This is styling for the navbar specifically */
 :root {
-	--primary: darkred;
+	--primary: dodgerblue;
 	--light: #eeeeee;
 }
 
@@ -21,7 +21,7 @@ nav {
 	z-index: 99;
 	background-color: #111;
 	padding: 12px 22px;
-	border-bottom: 3px solid darkred;
+	border-bottom: 3px solid dodgerblue;
 }
 
 .hamburger {
@@ -115,12 +115,12 @@ nav {
 	background-color: #111;
 	padding-top: 120px;
 	transition: 0.5s;
-	border-bottom: 3px solid darkred;
+	border-bottom: 3px solid dodgerblue;
 }
 
 .mobile-nav.is-active {
 	left: 0;
-	border-bottom: 3px solid darkred;
+	border-bottom: 3px solid dodgerblue;
 }
 
 .mobile-nav a {
@@ -137,7 +137,7 @@ nav {
 
 .mobile-nav a:hover {
 	padding: 8px 16px;
-	background-color: darkred;
+	background-color: dodgerblue;
 	color: var(--light);
 	font-weight: bold;
 	text-decoration: none;
